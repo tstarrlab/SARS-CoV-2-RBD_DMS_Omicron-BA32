@@ -1,0 +1,12 @@
+# the BioSample accession
+biosample_accession: SAMN42557522
+
+# name of CSV file listing barcode runs to uploade
+barcode_runs: ./barcode_runs_to_upload.csv
+
+# the following come from the SRA FTP upload instructions
+ftp_username: subftp
+ftp_account_folder: uploads/tyler.n.starr_gmail.com_pVxU5Fx4
+
+# Meaningful name for this sample's FTP folder:
+ftp_subfolder: BA286_EG5_FLip_DMS
