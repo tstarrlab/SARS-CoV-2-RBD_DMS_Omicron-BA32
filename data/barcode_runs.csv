@@ -1,0 +1,81 @@
+﻿library,sample,sample_type,sort_bin,concentration,date,number_cells,R1
+pool1,TiteSeq_01_bin1,TiteSeq,1,1,260618,1208755,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_s1-b1_R1_001.fastq.gz
+pool1,TiteSeq_01_bin2,TiteSeq,2,1,260618,680292,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_s1-b2_R1_001.fastq.gz
+pool1,TiteSeq_01_bin3,TiteSeq,3,1,260618,610637,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_s1-b3_R1_001.fastq.gz
+pool1,TiteSeq_01_bin4,TiteSeq,4,1,260618,2656753,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_s1-b4_R1_001.fastq.gz
+pool1,TiteSeq_02_bin1,TiteSeq,1,2,260618,1545467,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_s2-b1_R1_001.fastq.gz
+pool1,TiteSeq_02_bin2,TiteSeq,2,2,260618,872944,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_s2-b2_R1_001.fastq.gz
+pool1,TiteSeq_02_bin3,TiteSeq,3,2,260618,702650,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_s2-b3_R1_001.fastq.gz
+pool1,TiteSeq_02_bin4,TiteSeq,4,2,260618,2841176,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_s2-b4_R1_001.fastq.gz
+pool1,TiteSeq_03_bin1,TiteSeq,1,3,260618,1925289,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_s3-b1_R1_001.fastq.gz
+pool1,TiteSeq_03_bin2,TiteSeq,2,3,260618,847546,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_s3-b2_R1_001.fastq.gz
+pool1,TiteSeq_03_bin3,TiteSeq,3,3,260618,815421,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_s3-b3_R1_001.fastq.gz
+pool1,TiteSeq_03_bin4,TiteSeq,4,3,260618,2031835,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_s3-b4_R1_001.fastq.gz
+pool1,TiteSeq_04_bin1,TiteSeq,1,4,260618,2829658,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_s4-b1_R1_001.fastq.gz
+pool1,TiteSeq_04_bin2,TiteSeq,2,4,260618,993553,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_s4-b2_R1_001.fastq.gz
+pool1,TiteSeq_04_bin3,TiteSeq,3,4,260618,1022976,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_s4-b3_R1_001.fastq.gz
+pool1,TiteSeq_04_bin4,TiteSeq,4,4,260618,715195,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_s4-b4_R1_001.fastq.gz
+pool1,TiteSeq_05_bin1,TiteSeq,1,5,260618,3185438,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_s5-b1_R1_001.fastq.gz
+pool1,TiteSeq_05_bin2,TiteSeq,2,5,260618,1050530,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_s5-b2_R1_001.fastq.gz
+pool1,TiteSeq_05_bin3,TiteSeq,3,5,260618,774453,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_s5-b3_R1_001.fastq.gz
+pool1,TiteSeq_05_bin4,TiteSeq,4,5,260618,138623,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_s5-b4_R1_001.fastq.gz
+pool1,TiteSeq_06_bin1,TiteSeq,1,6,260618,5203442,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_s6-b1_R1_001.fastq.gz
+pool1,TiteSeq_06_bin2,TiteSeq,2,6,260618,610454,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_s6-b2_R1_001.fastq.gz
+pool1,TiteSeq_06_bin3,TiteSeq,3,6,260618,35989,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_s6-b3_R1_001.fastq.gz
+pool1,TiteSeq_06_bin4,TiteSeq,4,6,260618,3295,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_s6-b4_R1_001.fastq.gz
+pool1,TiteSeq_07_bin1,TiteSeq,1,7,260618,5627537,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_s7-b1_R1_001.fastq.gz
+pool1,TiteSeq_07_bin2,TiteSeq,2,7,260618,341866,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_s7-b2_R1_001.fastq.gz
+pool1,TiteSeq_07_bin3,TiteSeq,3,7,260618,11695,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_s7-b3_R1_001.fastq.gz
+pool1,TiteSeq_07_bin4,TiteSeq,4,7,260618,2784,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_s7-b4_R1_001.fastq.gz
+pool1,TiteSeq_08_bin1,TiteSeq,1,8,260618,5034985,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_s8-b1_R1_001.fastq.gz
+pool1,TiteSeq_08_bin2,TiteSeq,2,8,260618,324193,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_s8-b2_R1_001.fastq.gz
+pool1,TiteSeq_08_bin3,TiteSeq,3,8,260618,11598,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_s8-b3_R1_001.fastq.gz
+pool1,TiteSeq_08_bin4,TiteSeq,4,8,260618,2618,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_s8-b4_R1_001.fastq.gz
+pool1,TiteSeq_09_bin1,TiteSeq,1,9,260618,5299400,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_s9-b1_R1_001.fastq.gz
+pool1,TiteSeq_09_bin2,TiteSeq,2,9,260618,266926,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_s9-b2_R1_001.fastq.gz
+pool1,TiteSeq_09_bin3,TiteSeq,3,9,260618,5513,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_s9-b3_R1_001.fastq.gz
+pool1,TiteSeq_09_bin4,TiteSeq,4,9,260618,2298,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_s9-b4_R1_001.fastq.gz
+pool2,TiteSeq_01_bin1,TiteSeq,1,1,260624,1014758,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_s11-b1_R1_001.fastq.gz
+pool2,TiteSeq_01_bin2,TiteSeq,2,1,260624,852513,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_s11-b2_R1_001.fastq.gz
+pool2,TiteSeq_01_bin3,TiteSeq,3,1,260624,720293,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_s11-b3_R1_001.fastq.gz
+pool2,TiteSeq_01_bin4,TiteSeq,4,1,260624,3068144,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_s11-b4_R1_001.fastq.gz
+pool2,TiteSeq_02_bin1,TiteSeq,1,2,260624,947108,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_s12-b1_R1_001.fastq.gz
+pool2,TiteSeq_02_bin2,TiteSeq,2,2,260624,877246,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_s12-b2_R1_001.fastq.gz
+pool2,TiteSeq_02_bin3,TiteSeq,3,2,260624,681516,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_s12-b3_R1_001.fastq.gz
+pool2,TiteSeq_02_bin4,TiteSeq,4,2,260624,2735404,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_s12-b4_R1_001.fastq.gz
+pool2,TiteSeq_03_bin1,TiteSeq,1,3,260624,1407844,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_s13-b1_R1_001.fastq.gz
+pool2,TiteSeq_03_bin2,TiteSeq,2,3,260624,915716,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_s13-b2_R1_001.fastq.gz
+pool2,TiteSeq_03_bin3,TiteSeq,3,3,260624,890870,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_s13-b3_R1_001.fastq.gz
+pool2,TiteSeq_03_bin4,TiteSeq,4,3,260624,2398672,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_s13-b4_R1_001.fastq.gz
+pool2,TiteSeq_04_bin1,TiteSeq,1,4,260624,1534482,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_s14-b1_R1_001.fastq.gz
+pool2,TiteSeq_04_bin2,TiteSeq,2,4,260624,932797,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_s14-b2_R1_001.fastq.gz
+pool2,TiteSeq_04_bin3,TiteSeq,3,4,260624,1154320,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_s14-b3_R1_001.fastq.gz
+pool2,TiteSeq_04_bin4,TiteSeq,4,4,260624,1612220,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_s14-b4_R1_001.fastq.gz
+pool2,TiteSeq_05_bin1,TiteSeq,1,5,260624,2827911,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_s15-b1_R1_001.fastq.gz
+pool2,TiteSeq_05_bin2,TiteSeq,2,5,260624,1385571,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_s15-b2_R1_001.fastq.gz
+pool2,TiteSeq_05_bin3,TiteSeq,3,5,260624,1080614,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_s15-b3_R1_001.fastq.gz
+pool2,TiteSeq_05_bin4,TiteSeq,4,5,260624,166080,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_s15-b4_R1_001.fastq.gz
+pool2,TiteSeq_06_bin1,TiteSeq,1,6,260624,4569238,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_s16-b1_R1_001.fastq.gz
+pool2,TiteSeq_06_bin2,TiteSeq,2,6,260624,527668,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_s16-b2_R1_001.fastq.gz
+pool2,TiteSeq_06_bin3,TiteSeq,3,6,260624,9381,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_s16-b3_R1_001.fastq.gz
+pool2,TiteSeq_06_bin4,TiteSeq,4,6,260624,1812,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_s16-b4_R1_001.fastq.gz
+pool2,TiteSeq_07_bin1,TiteSeq,1,7,260624,4977097,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_s17-b1_R1_001.fastq.gz
+pool2,TiteSeq_07_bin2,TiteSeq,2,7,260624,343102,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_s17-b2_R1_001.fastq.gz
+pool2,TiteSeq_07_bin3,TiteSeq,3,7,260624,4041,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_s17-b3_R1_001.fastq.gz
+pool2,TiteSeq_07_bin4,TiteSeq,4,7,260624,1912,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_s17-b4_R1_001.fastq.gz
+pool2,TiteSeq_08_bin1,TiteSeq,1,8,260624,5264860,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_s18-b1_R1_001.fastq.gz
+pool2,TiteSeq_08_bin2,TiteSeq,2,8,260624,349821,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_s18-b2_R1_001.fastq.gz
+pool2,TiteSeq_08_bin3,TiteSeq,3,8,260624,4001,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_s18-b3_R1_001.fastq.gz
+pool2,TiteSeq_08_bin4,TiteSeq,4,8,260624,1759,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_s18-b4_R1_001.fastq.gz
+pool2,TiteSeq_09_bin1,TiteSeq,1,9,260624,4991289,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_s19-b1_R1_001.fastq.gz
+pool2,TiteSeq_09_bin2,TiteSeq,2,9,260624,223371,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_s19-b2_R1_001.fastq.gz
+pool2,TiteSeq_09_bin3,TiteSeq,3,9,260624,2202,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_s19-b3_R1_001.fastq.gz
+pool2,TiteSeq_09_bin4,TiteSeq,4,9,260624,1688,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_s19-b4_R1_001.fastq.gz
+pool1,SortSeq_bin1,SortSeq,1,,260618,840000,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_exp1_RBD_bin1_1_R1_001.fastq.gz; /uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_exp1_RBD_bin1_2_R1_001.fastq.gz; /uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_exp1_RBD_bin1_3_R1_001.fastq.gz
+pool1,SortSeq_bin2,SortSeq,2,,260618,2419472,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_exp1_RBD_bin2_1_R1_001.fastq.gz; /uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_exp1_RBD_bin2_2_R1_001.fastq.gz; /uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_exp1_RBD_bin2_3_R1_001.fastq.gz
+pool1,SortSeq_bin3,SortSeq,3,,260618,2805239,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_exp1_RBD_bin3_1_R1_001.fastq.gz; /uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_exp1_RBD_bin3_2_R1_001.fastq.gz; /uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_exp1_RBD_bin3_3_R1_001.fastq.gz
+pool1,SortSeq_bin4,SortSeq,4,,260618,3683689,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_exp1_RBD_bin4_1_R1_001.fastq.gz; /uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_exp1_RBD_bin4_2_R1_001.fastq.gz; /uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260618_exp1_RBD_bin4_3_R1_001.fastq.gz
+pool2,SortSeq_bin1,SortSeq,1,,260624,630000,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_exp2_RBD_bin1_1_R1_001.fastq.gz; /uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_exp2_RBD_bin1_2_R1_001.fastq.gz; /uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_exp2_RBD_bin1_3_R1_001.fastq.gz
+pool2,SortSeq_bin2,SortSeq,2,,260624,1947407,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_exp2_RBD_bin2_1_R1_001.fastq.gz; /uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_exp2_RBD_bin2_2_R1_001.fastq.gz; /uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_exp2_RBD_bin2_3_R1_001.fastq.gz
+pool2,SortSeq_bin3,SortSeq,3,,260624,2016169,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_exp2_RBD_bin3_1_R1_001.fastq.gz; /uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_exp2_RBD_bin3_2_R1_001.fastq.gz; /uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_exp2_RBD_bin3_3_R1_001.fastq.gz
+pool2,SortSeq_bin4,SortSeq,4,,260624,2102706,/uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_exp2_RBD_bin4_1_R1_001.fastq.gz; /uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_exp2_RBD_bin4_2_R1_001.fastq.gz; /uufs/chpc.utah.edu/common/home/starr-group1/sequencing/ALT/2026/260723_illumina_SARS2-BA32/260624_exp2_RBD_bin4_3_R1_001.fastq.gz

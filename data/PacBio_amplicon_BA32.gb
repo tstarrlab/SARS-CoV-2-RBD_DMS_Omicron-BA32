@@ -1,0 +1,52 @@
+LOCUS       BA32                       1079 bp    DNA		 linear       19-MAY-2026
+DEFINITION  PacBio amplicon for deep mutational scanning of SARS-CoV-2 RBD.
+ACCESSION   None
+SOURCE      natural DNA sequence
+  ORGANISM  unspecified
+COMMENT     Imported using the Genbank importer.
+            File name: PacBio_amplicon_BA32.gb
+            PacBio amplicon for SARS-CoV-2 RBD BA32 libraries.
+            ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     termini5        1..33
+                     /label="termini5"
+                     /locus_tag="termini5"
+                     /label="termini5"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0-0.5} {} 0} width 5 offset 0"
+     gene            34..636
+                     /label="gene"
+     spacer          637..1057
+                     /label="spacer"
+                     /locus_tag="spacer"
+                     /label="spacer"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0-0.5} {} 0} width 5 offset 0"
+     barcode         1058..1073
+                     /label="barcode"
+                     /locus_tag="barcode"
+                     /label="barcode"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0-0.5} {} 0} width 5 offset 0"
+     termini3        1074..1079
+                     /label="termini3"
+                     /locus_tag="termini3"
+                     /label="termini3"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0-0.5} {} 0} width 5 offset 0"
+ORIGIN
+        1 ggccgcggag gcggagggtc ggctagccat atgAATATCA CAAATCTTTG TCCCTTCTAC
+       61 GAAGTCTTCA ACGCTACTAG GTTCCCATCA GTGTACGCAT GGAACCGTAA GAGAATTTCT
+      121 AACTGTGTGG CGGACTACAG CGTCTTGTAT AACTTTGCTC CGTTCTTCAC CTTCAAATGC
+      181 TACGGCGTGT CACCCACCAA GCTTAATGAT CTGTGTTTTA CAAACGTTTA CGCGGATTCG
+      241 TTTGTTATTA AAGGCAACGA GGTCTCTCAA ATTGCTCCAG GGCAGACCGG GAATATTGCC
+      301 GACTATAACT ACAAACTGCC AGATGACTTC ACGGGCTGTG TCATATCATG GAACTCTAAC
+      361 AGATTGGACT CCAAAGCCGA TGGTAACTAC AACTACTGGT ATAGGTTGTT CAGGAAGTCA
+      421 AAGCTTAAGC CATTCGAGAG GGATATAAGT ACTGAAATCT ATCAAGCGGG TAACAACCCA
+      481 TGTAATGGCG TAAAAGGCTT CAACTGCTAC TTCCCGCTTC AATCATACAG CTTCAGGCCA
+      541 ACGTATGGGG TAGGCTACCA ACCCTACCGT GTTGTTGTCT TAAGCTTTGA GCTACTTCAC
+      601 GCTCCCGCTA CTGTTTGTGG GCCTAAGAAT AGCACTctcg aggggggcgg ttccgaacaa
+      661 aagcttattt ctgaagagga cttgtaatag agatctgata acaacagtgt agatgtaaca
+      721 aaatcgactt tgttcccact gtacttttag ctcgtacaaa atacaatata cttttcattt
+      781 ctccgtaaac aacatgtttt cccatgtaat atccttttct atttttcgtt ccgttaccaa
+      841 ctttacacat actttatata gctattcact tctatacact aaaaaactaa gacaatttta
+      901 attttgctgc ctgccatatt tcaatttgtt ataaattcct ataatttatc ctattagtag
+      961 ctaaaaaaag atgaatgtga atcgaatcct aagagaatta atgatacggc gaccaccgag
+     1021 atctacactc tttccctaca cgacgctctt ccgatctnnn nnnnnnnnnn nnngcggcc
+//
