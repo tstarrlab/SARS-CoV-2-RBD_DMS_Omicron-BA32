@@ -159,7 +159,7 @@ dt[,TiteSeq_min_cell_filtered := sum(c(c(TiteSeq_01_totalcount,TiteSeq_02_totalc
 
 #function that fits a nls regression to the titration series, including an option to filter below certain thresholds for average cells across all samples, and number of samples below a cutoff of cells
 fit.titration <- function(y.vals,x.vals,count.vals,min.cfu=cutoff,
-                          min.means=0.8,min.average=cutoff,Kd.start=1e-9,
+                          min.means=0.8,min.average=cutoff,Kd.start=1e-10,
                           a.start=3,a.lower=2,a.upper=3,
                           b.start=1,b.lower=1,b.upper=2){ #increased b.upper to 2 b/c EG5 and esp FLip have higher baselines in many curves that are evident
   indices <- count.vals>min.cfu & !is.na(y.vals)

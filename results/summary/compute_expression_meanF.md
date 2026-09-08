@@ -192,17 +192,19 @@ calc.MLmean <- function(b1,b2,b3,b4,min.b1,min.b2,min.b3,min.b4,max.b4,min.count
 #fit ML mean and sd fluorescence for each barcode, and calculate total cell count as the sum across the four bins. Multiply cell counts by a factor of 20 to minimize rounding errors since fitdistcens requires rounding to integer inputs
 invisible(dt[library=="pool1",c("expression","ML_sdF") := tryCatch(calc.MLmean(b1=SortSeq_bin1*20,b2=SortSeq_bin2*20,
                                                                       b3=SortSeq_bin3*20,b4=SortSeq_bin4*20,
-                                                                      min.b1=log(-642),min.b2=log(131),min.b3=log(558),
-                                                                      min.b4=log(2195),max.b4=log(16954)),
+                                                                      min.b1=log(20),min.b2=log(130.5),min.b3=log(556.5),
+                                                                      min.b4=log(2195.5),max.b4=log(229000)),
                                                           error=function(e){return(list(as.numeric(NA),as.numeric(NA)))}),by=c("library","barcode")])
 invisible(dt[library=="pool2",c("expression","ML_sdF") := tryCatch(calc.MLmean(b1=SortSeq_bin1*20,b2=SortSeq_bin2*20,
                                                                       b3=SortSeq_bin3*20,b4=SortSeq_bin4*20,
-                                                                      min.b1=log(-701),min.b2=log(151),min.b3=log(659),
-                                                                      min.b4=log(2485),max.b4=log(21659)),
+                                                                      min.b1=log(20),min.b2=log(150.5),min.b3=log(658.5),
+                                                                      min.b4=log(2484.5),max.b4=log(229000)),
                                                           error=function(e){return(list(as.numeric(NA),as.numeric(NA)))}),by=c("library","barcode")])
 
 #save temp data file for downstream troubleshooting since the ML meanF took >1hr to calculate -- don't use these for final anlaysis though for reproducibility!
 save(dt,file=paste(config$expression_sortseq_dir,"/dt.temp.Rda",sep=""))
+
+#load(file=paste(config$expression_sortseq_dir,"/dt.temp.Rda",sep=""))
 ```
 
 ## Basic plotting and QC
@@ -261,7 +263,7 @@ grid.arrange(p1,ncol=1)
 invisible(dev.print(pdf, paste(config$expression_sortseq_dir,"/violin-plot_meanF-by-target.pdf",sep="")))
 ```
 
-We have generated expression measurements for 10.7% of the barcodes in
+We have generated expression measurements for 58.35% of the barcodes in
 our libraries.
 
 ## Data Output

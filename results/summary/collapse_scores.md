@@ -85,7 +85,7 @@ sessionInfo()
     ## [13] ggplot2_4.0.0     tidyverse_2.0.0   data.table_1.15.4 yaml_2.3.8       
     ## 
     ## loaded via a namespace (and not attached):
-    ##  [1] gtable_0.3.6       compiler_4.4.0     Rcpp_1.0.12        tidyselect_1.2.1  
+    ##  [1] gtable_0.3.6       compiler_4.4.0     Rcpp_1.1.2         tidyselect_1.2.1  
     ##  [5] parallel_4.4.0     scales_1.4.0       fastmap_1.1.1      R6_2.5.1          
     ##  [9] generics_0.1.3     knitr_1.46         pillar_1.9.0       RColorBrewer_1.1-3
     ## [13] tzdb_0.4.0         rlang_1.1.3        utf8_1.2.4         stringi_1.8.3     

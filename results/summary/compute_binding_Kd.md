@@ -291,7 +291,7 @@ dt[,TiteSeq_min_cell_filtered := sum(c(c(TiteSeq_01_totalcount,TiteSeq_02_totalc
 
 #function that fits a nls regression to the titration series, including an option to filter below certain thresholds for average cells across all samples, and number of samples below a cutoff of cells
 fit.titration <- function(y.vals,x.vals,count.vals,min.cfu=cutoff,
-                          min.means=0.8,min.average=cutoff,Kd.start=1e-9,
+                          min.means=0.8,min.average=cutoff,Kd.start=1e-10,
                           a.start=3,a.lower=2,a.upper=3,
                           b.start=1,b.lower=1,b.upper=2){ #increased b.upper to 2 b/c EG5 and esp FLip have higher baselines in many curves that are evident
   indices <- count.vals>min.cfu & !is.na(y.vals)
@@ -339,8 +339,8 @@ our library barcodes. We will also spot check titration curves from
 across our measurement range, and spot check curves whose fit parameters
 hit the different boundary conditions of the fit variables.
 
-We successfully generated *K*<sub>D</sub> estimates for 52357 of our
-pool1 barcodes (51.43%), and 43823 of our pool2 barcodes (47.59%).
+We successfully generated *K*<sub>D</sub> estimates for 54378 of our
+pool1 barcodes (53.42%), and 50652 of our pool2 barcodes (55.01%).
 
 Why were estimates not returned for some barcodes? The histograms below
 show that many barcodes with unsuccessful titration fits have lower
@@ -588,7 +588,7 @@ grid.arrange(p1,ncol=1)
 invisible(dev.print(pdf, paste(config$Titeseq_Kds_dir,"/violin-plot_log10Ka-by-target.pdf",sep="")))
 ```
 
-We have generated binding measurements for 49.01% of the barcodes in our
+We have generated binding measurements for 53.45% of the barcodes in our
 libraries.
 
 ## Data Output
