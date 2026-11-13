@@ -21,4 +21,4 @@ Data for variants from Wuhan-Hu-1 through Omicron XBB.1.5 are from previously pu
 
 ### Data
 
-Raw data  can be found [here](https://github.com/tstarrlab/SARS-CoV-2-RBD_DMS_Omicron-EG5-FLip-BA286/blob/main/results/final_variant_scores/final_variant_scores.csv). The code used to make these plots can be found [here](https://github.com/tstarrlab/SARS-CoV-2-RBD_DMS_Omicron-EG5-FLip-BA286/blob/main/RBD-Heatmaps-Interactive-Visualization.ipynb).
+Raw data  can be found [here](https://github.com/tstarrlab/SARS-CoV-2-RBD_DMS_Omicron-BA32/blob/main/results/final_variant_scores/final_variant_scores.csv). The code used to make these plots can be found [here](https://github.com/tstarrlab/SARS-CoV-2-RBD_DMS_Omicron-BA32/blob/main/RBD-Heatmaps-Interactive-Visualization.ipynb).
