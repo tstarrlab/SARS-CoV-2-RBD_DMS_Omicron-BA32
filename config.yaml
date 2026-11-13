@@ -24,7 +24,7 @@ site_number_offset: 330  # add this to sequential sites to get RBD numbering
 pdb_6m0j: data/6m0j.pdb #WH1 bound to ACE2 xtal
 
 # URLs from which we download binding & expression of mutants & variants and surveillance count data
-mut_bind_expr_url: https://media.githubusercontent.com/media/tstarrlab/SARS-CoV-2-RBD_DMS_Omicron-EG5-FLip-BA286/refs/heads/main/results/final_variant_scores/final_variant_scores.csv
+mut_bind_expr_url: https://media.githubusercontent.com/media/tstarrlab/SARS-CoV-2-RBD_DMS_Omicron-KP3-LP8/refs/heads/main/results/final_variant_scores/final_variant_scores.csv
 mut_antibody_escape_url: https://media.githubusercontent.com/media/jbloomlab/SARS2_RBD_Ab_escape_maps/main/processed_data/escape_data.csv
 SARSr_DMS_url: https://raw.githubusercontent.com/tstarrlab/SARSr-CoV-RBD_DMS/main/results/final_variant_scores/final_variant_scores_lib40_41.csv
 

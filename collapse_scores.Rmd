@@ -342,13 +342,12 @@ dt_voc <- data.table(read.csv(file=config$mut_bind_expr,stringsAsFactors=F))
 
 setkey(dt_voc,target,position,mutant)
 
-#rename targets
-dt_final[target=="BA32",target:="Omicron_BA32"]
-#dt_final[target=="LP8",target:="Omicron_LP8"]
-
 dt_final$bind_rep3 <- as.numeric(NA)
 
 dt_final <- rbind(dt_final[,.(target,wildtype,position,mutant,mutation,bind,delta_bind,n_bc_bind,n_libs_bind,bind_rep1,bind_rep2,bind_rep3,expr,delta_expr,n_bc_expr,n_libs_expr,expr_rep1,expr_rep2)],dt_voc[,.(target,wildtype,position,mutant,mutation,bind,delta_bind,n_bc_bind,n_libs_bind,bind_rep1,bind_rep2,bind_rep3,expr,delta_expr,n_bc_expr,n_libs_expr,expr_rep1,expr_rep2)])
+
+#rename BA32 for similarity with other omicrons
+dt_final[target=="BA32",target:="Omicron_BA32"]
 
 setkey(dt_final,target,position,mutant)
 
@@ -362,7 +361,7 @@ Order factor variables for plotting
 
 ```{r order_plotting_factors}
 #order targets in plotting order
-dt_final$target <- factor(dt_final$target,levels=c("Wuhan-Hu-1","Eta","Alpha","Beta","Delta","Omicron_BA1","Omicron_BA2","Omicron_BQ11","Omicron_XBB15","Omicron_EG5","Omicron_FLip","Omicron_BA286","Omicron_BA32","Omicron_LP8"))
+dt_final$target <- factor(dt_final$target,levels=c("Wuhan-Hu-1","Eta","Alpha","Beta","Delta","Omicron_BA1","Omicron_BA2","Omicron_BQ11","Omicron_XBB15","Omicron_EG5","Omicron_FLip","Omicron_BA286","Omicron_KP3","Omicron_LP8","Omicron_BA32"))
 #order mutant as a factor for grouping by rough biochemical grouping
 dt_final$mutant <- factor(dt_final$mutant, levels=c("-","C","P","G","V","M","L","I","A","F","W","Y","T","S","N","Q","E","D","H","K","R"))
 #add character vector indicating wildtype to use as plotting symbols for wt
@@ -371,7 +370,7 @@ dt_final[as.character(mutant)==as.character(wildtype),wildtype_indicator := "x"]
 
 
 #make temp long-form data frame
-temp <- data.table::melt(dt_final[target %in% c("Wuhan-Hu-1","Omicron_BA1","Omicron_BA2","Omicron_BA286","Omicron_XBB15","Omicron_BA32","Omicron_LP8"), .(target,position,mutant,bind,delta_bind,expr,delta_expr,wildtype_indicator)],id.vars=c("target","position","mutant","wildtype_indicator"),measure.vars=c("bind","delta_bind","expr","delta_expr"),variable.name="measurement",value.name="value")
+temp <- data.table::melt(dt_final[target %in% c("Wuhan-Hu-1","Omicron_BA1","Omicron_BA2","Omicron_XBB15","Omicron_BA286","Omicron_KP3","Omicron_BA32"), .(target,position,mutant,bind,delta_bind,expr,delta_expr,wildtype_indicator)],id.vars=c("target","position","mutant","wildtype_indicator"),measure.vars=c("bind","delta_bind","expr","delta_expr"),variable.name="measurement",value.name="value")
 
 #for method to duplicate aa labels on right side of plot https://github.com/tidyverse/ggplot2/issues/3171
 guide_axis_label_trans <- function(label_trans = identity, ...) {
@@ -424,10 +423,10 @@ p1
 invisible(dev.print(pdf, paste(config$final_variant_scores_dir,"/heatmap_SSM_delta-log10Ka-by-target.pdf",sep="")))
 ```
 
-Just BA.2.86 through LP8:
+Smaller subset:
 
-```{r heatmap_DMS_delta-log10Ka-BA286, fig.width=25,fig.height=15,fig.align="center", dpi=500,dev="png",echo=T}
-p1 <- ggplot(temp[measurement=="delta_bind" & target %in% c("Omicron_BA286","Omicron_BA32", "Omicron_LP8"),],aes(position,mutant))+geom_tile(aes(fill=value),color="black",lwd=0.1)+
+```{r heatmap_DMS_delta-log10Ka-BA322, fig.width=25,fig.height=15,fig.align="center", dpi=500,dev="png",echo=T}
+p1 <- ggplot(temp[measurement=="delta_bind" & target %in% c("Wuhan-Hu-1","Omicron_BA1","Omicron_BA286","Omicron_BA32"),],aes(position,mutant))+geom_tile(aes(fill=value),color="black",lwd=0.1)+
   scale_fill_gradientn(colours=c("#A94E35","#A94E35","#F48365","#FFFFFF","#7378B9","#383C6C","#383C6C"),limits=c(-5,2),values=c(0/7,1/7,3/7,5/7,5.5/7,6/7,7/7),na.value="yellow")+
   scale_x_continuous(expand=c(0,0),breaks=c(331,seq(335,530,by=5)))+
   labs(x="",y="")+theme_classic(base_size=9)+
@@ -438,7 +437,7 @@ p1 <- ggplot(temp[measurement=="delta_bind" & target %in% c("Omicron_BA286","Omi
   theme(strip.text.x = element_text(size = 18))
 
 p1
-invisible(dev.print(pdf, paste(config$final_variant_scores_dir,"/heatmap_SSM_delta-log10Ka_BA286.pdf",sep="")))
+invisible(dev.print(pdf, paste(config$final_variant_scores_dir,"/heatmap_SSM_delta-log10Ka_BA32.pdf",sep="")))
 ```
 
 Make heatmaps faceted by target, showing raw expression and delta-expression of muts relative to respective wildtype
@@ -496,7 +495,7 @@ Plot mutation effects on expression versus binding in a single scatterplot.
 
 ```{r plot_expr-v-bind, echo=T, fig.width=8, fig.height=8, fig.align="center", dpi=300,dev="png"}
 par(mfrow=c(2,2))
-x <- dt_final[target=="Omicron_BA32",delta_expr]; y <- dt_final[target=="Omicron_BA32",delta_bind]; plot(x,y,pch=16,col="#00000020",xlab="mutation effect on RBD expression (delta-logMFI)",ylab="mutation effect on ACE2 binding (delta-log10Kd)",main="BA32", xlim=c(-2,1),ylim=c(-5,1))
+x <- dt_final[target=="Omicron_BA32",delta_expr]; y <- dt_final[target=="Omicron_BA32",delta_bind]; plot(x,y,pch=16,col="#00000020",xlab="mutation effect on RBD expression (delta-logMFI)",ylab="mutation effect on ACE2 binding (delta-log10Kd)",main="Omicron_BA32", xlim=c(-2,1),ylim=c(-5,1))
 
 #x <- dt_final[target=="Omicron_LP8",delta_expr]; y <- dt_final[target=="Omicron_LP8",delta_bind]; plot(x,y,pch=16,col="#00000020",xlab="mutation effect on RBD expression (delta-logMFI)",ylab="mutation effect on ACE2 binding (delta-log10Kd)",main="LP8", xlim=c(-2,1),ylim=c(-5,1))
 
